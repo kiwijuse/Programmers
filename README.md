@@ -18,12 +18,12 @@
 ## 🌱 풀이 잔디
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg">
-  <img alt="풀이 잔디" src="assets/grass-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg?v=1787472274">
+  <img alt="풀이 잔디" src="assets/grass-light.svg?v=1787472274">
 </picture>
 
 <!-- STREAK:START -->
-`아직 커밋 없음` — 첫 풀이를 올리면 여기부터 채워진다.
+`현재 1일 연속` · `최장 1일` · `활동 1일` · `풀이 커밋 1회`
 <!-- STREAK:END -->
 
 <sub>README 손질이나 워크플로 수정 같은 잡커밋은 안 세고, <code>프로그래머스/</code> 아래를 건드린 커밋만 잔디가 된다.</sub>
