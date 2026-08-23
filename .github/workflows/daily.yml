@@ -1,0 +1,72 @@
+name: daily
+
+on:
+  # 백준허브가 풀이를 밀어넣으면 잔디·목록만 다시 그린다
+  push:
+    branches: [main]
+    paths:
+      - '프로그래머스/**'
+  # 매일 00:00 KST (= 15:00 UTC 전날)
+  schedule:
+    - cron: '0 15 * * *'
+  workflow_dispatch:
+    inputs:
+      reroll:
+        description: '오늘 문제 다시 뽑기'
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0        # 잔디는 전체 커밋 히스토리가 필요하다
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: 풀이 목록 갱신
+        run: node .github/scripts/build-index.mjs
+
+      - name: 잔디 그리기
+        run: node .github/scripts/render-grass.mjs
+
+      # push(=풀이 커밋) 때는 추천을 건드리지 않는다.
+      # 문제를 풀 때마다 후보 집합이 바뀌어 오늘의 추천이 뒤바뀌는 걸 막기 위함.
+      - name: 오늘 문제 뽑기
+        if: github.event_name != 'push'
+        env:
+          REROLL:     ${{ inputs.reroll }}
+          LEVELS:     '1,2,3'    # 추천 난이도 범위
+          PICK_LANG:  cpp        # C++ 제출 가능한 문제만
+          PICK_COUNT: '3'        # 하루에 뽑을 개수
+        run: node .github/scripts/pick-daily.mjs
+
+      - name: 커밋 & 푸시
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          # SVG가 바뀌었을 때만 README의 ?v= 를 갱신해 GitHub 이미지 캐시를 깬다
+          if ! git diff --quiet -- assets/; then
+            V=$(date +%s)
+            sed -i -E "s#(assets/grass-(dark|light)\.svg)(\?v=[0-9]+)?#\1?v=$V#g" README.md
+          fi
+
+          git add -A
+          if git diff --cached --quiet; then
+            echo "바뀐 게 없음"
+          else
+            git commit -m "chore: 잔디·추천·목록 갱신 [skip ci]"
+            git push
+          fi

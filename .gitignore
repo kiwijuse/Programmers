@@ -1,0 +1,7 @@
+# 로컬 빌드 산출물
+*.exe
+*.out
+*.o
+a.out
+.vscode/
+.DS_Store
