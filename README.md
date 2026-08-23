@@ -19,8 +19,8 @@
 ## 연속 학습
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg?v=1787475590">
-  <img alt="연속 학습 기록" src="assets/grass-light.svg?v=1787475590">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg?v=1787475925">
+  <img alt="연속 학습 기록" src="assets/grass-light.svg?v=1787475925">
 </picture>
 
 <!-- STREAK:START -->

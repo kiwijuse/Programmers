@@ -17,8 +17,8 @@ const W = PAD_L + WEEKS * PITCH + 6;
 const H = PAD_T + 7 * PITCH + PAD_B;
 
 const THEMES = {
-  light: { bg: "none", text: "#57606a", scale: ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"] },
-  dark:  { bg: "none", text: "#8b949e", scale: ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"] },
+  light: { text: "#57606a", scale: ["#ebedf0", "#7ee787", "#40c463", "#2da44e", "#176f2c"] },
+  dark:  { text: "#8b949e", scale: ["#161b22", "#2ea043", "#3fb950", "#56d364", "#7ee787"] },
 };
 
 // ── KST 날짜 헬퍼 ─────────────────────────────────────────────────
