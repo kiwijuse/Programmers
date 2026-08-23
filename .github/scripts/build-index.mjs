@@ -48,7 +48,7 @@ const label = (l) => LANG_LABEL[l] || l.toUpperCase();
 
 function render(rows) {
   if (rows.length === 0) {
-    return "> 아직 올라온 풀이가 없다. 백준허브로 문제를 하나 제출하면 이 표가 저절로 생긴다.";
+    return "> 아직 올라온 풀이가 없다. 문제를 하나 풀면 여기에 표가 생긴다.";
   }
 
   const byLevel = new Map();

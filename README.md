@@ -1,56 +1,60 @@
 # Programmers
 
-프로그래머스에서 푼 문제를 쌓아두는 창고.<br>
-실력이 늘어서라기보다 **손이 굳는 게 싫어서** 시작했다. 하루에 한 문제라도.
+프로그래머스에서 푼 문제를 모아두는 곳.
 
-## 📌 오늘 뽑힌 문제
+거창한 목표가 있는 건 아니다. 그냥 머리가 굳는 게 싫어서 시작했다. 하루에 한 문제라도.
+
+## 랜덤 추천 문제
 
 <!-- DAILY:START -->
-> **2026-08-23** 치의 과제. 후보 295문제 중에서 뽑았다.
+> **2026-08-23** · 아직 안 푼 295문제 중에서 뽑았다.
 
 1. **[크기가 작은 부분 문자열 ](https://school.programmers.co.kr/learn/courses/30/lessons/147355)** · Lv.1 · 정답률 79%
 2. **[기지국 설치](https://school.programmers.co.kr/learn/courses/30/lessons/12979)** · Lv.3 · 정답률 59%
 3. **[이모티콘 할인행사](https://school.programmers.co.kr/learn/courses/30/lessons/150368)** · Lv.2 · 정답률 45%
 
-<sub>매일 00:00 KST 자동 교체 · 마음에 안 들면 Actions → `daily` → Run workflow에서 reroll 체크</sub>
+<sub>매일 자정에 새로 뽑힌다.</sub>
 <!-- DAILY:END -->
 
-## 🌱 풀이 잔디
+## 연속 학습
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg?v=1787472274">
-  <img alt="풀이 잔디" src="assets/grass-light.svg?v=1787472274">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg">
+  <img alt="연속 학습 기록" src="assets/grass-light.svg">
 </picture>
 
 <!-- STREAK:START -->
-`현재 1일 연속` · `최장 1일` · `활동 1일` · `풀이 커밋 1회`
+`아직 기록 없음` — 첫 풀이가 올라오면 여기부터 채워진다.
 <!-- STREAK:END -->
 
-<sub>README 손질이나 워크플로 수정 같은 잡커밋은 안 세고, <code>프로그래머스/</code> 아래를 건드린 커밋만 잔디가 된다.</sub>
+<sub>README를 고치거나 설정을 만지는 커밋은 세지 않는다. <code>프로그래머스/</code> 아래에 풀이가 실제로 올라온 날만 칸이 채워진다.</sub>
 
-## 📚 풀이 목록
+## 풀이 목록
 
 <!-- INDEX:START -->
-> 아직 올라온 풀이가 없다. 백준허브로 문제를 하나 제출하면 이 표가 저절로 생긴다.
+> 아직 올라온 풀이가 없다. 문제를 하나 풀면 여기에 표가 생긴다.
 <!-- INDEX:END -->
 
-## 🛠 어떻게 굴러가나
+## 자동화
 
-| 무엇 | 언제 | 하는 일 |
+문제를 풀고 제출하면 [백준허브](https://github.com/BaekjoonHub/BaekjoonHub)가 코드를 이 저장소로 올린다.
+그 뒤는 GitHub Actions가 알아서 한다.
+
+| 스크립트 | 언제 도는지 | 하는 일 |
 |---|---|---|
-| `pick-daily.mjs` | 매일 00:00 KST · 수동 | 프로그래머스 공개 API에서 **안 푼 문제만** 골라 3개 추천 |
-| `render-grass.mjs` | 풀이 커밋 시 · 매일 | 풀이 커밋 기록으로 잔디 SVG(라이트/다크) 생성 |
-| `build-index.mjs` | 풀이 커밋 시 · 매일 | 폴더를 훑어 레벨별 풀이 표 갱신 |
+| `pick-daily.mjs` | 매일 자정, 수동 실행 | 아직 안 푼 문제 중에서 세 개를 뽑는다 |
+| `render-grass.mjs` | 풀이가 올라올 때, 매일 자정 | 커밋 기록을 읽어 잔디를 다시 그린다 |
+| `build-index.mjs` | 풀이가 올라올 때, 매일 자정 | 폴더를 훑어 위 목록을 다시 만든다 |
 
-풀이 파일 자체는 [백준허브](https://github.com/BaekjoonHub/BaekjoonHub) 확장이 채점 통과 시점에 알아서 커밋한다.
-봇은 그 위에 얹혀서 README만 손본다.
-
-**다시 뽑고 싶으면** → Actions 탭 → `daily` 워크플로 → Run workflow → `reroll` 체크.
-
-설정은 [워크플로 파일](.github/workflows/daily.yml)의 `env`에서 바꾼다 — 난이도 범위(`LEVELS`), 언어 필터(`PICK_LANG`), 추천 개수(`PICK_COUNT`).
+추천이 마음에 안 들면 Actions 탭에서 `daily` 워크플로를 `reroll`을 켜고 돌리면 새로 뽑힌다.
+난이도 범위와 언어, 뽑는 개수는 [daily.yml](.github/workflows/daily.yml)의 `env`에서 바꾼다.
 
 ## 기록
 
 ### 2026-08-23
 
-자동화부터 깔고 시작. 문제 고르느라 시간 쓰는 게 제일 아까웠어서, 아침에 열면 오늘 풀 것 세 개가 이미 정해져 있게 만들었다. 이제 핑계가 없다.
+자동화부터 깔고 시작했다. 막상 앉으면 뭘 풀지 고르다가 시간을 다 버리는 게 싫었다. 이제 아침에 열면 오늘 풀 문제가 이미 정해져 있다.
+
+---
+
+<sub>저장소 구성과 자동화 아이디어는 <a href="https://github.com/pill27211/programmers-daily">pill27211/programmers-daily</a>를 참고했다.</sub>

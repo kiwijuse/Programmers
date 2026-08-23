@@ -115,11 +115,11 @@ const lines = picks.map(
 );
 
 const body = [
-  `> **${today}** 치의 과제. 후보 ${pool.length}문제 중에서 뽑았다.`,
+  `> **${today}** · 아직 안 푼 ${pool.length}문제 중에서 뽑았다.`,
   ``,
   ...lines,
   ``,
-  `<sub>매일 00:00 KST 자동 교체${spin > 0 ? ` · 오늘 ${spin}번 다시 뽑음` : ""} · 마음에 안 들면 Actions → \`daily\` → Run workflow에서 reroll 체크</sub>`,
+  `<sub>매일 자정에 새로 뽑힌다${spin > 0 ? ` · 오늘 ${spin}번 다시 뽑았다` : ""}.</sub>`,
 ].join("\n");
 
 writeFileSync(README, replaceBlock(readFileSync(README, "utf8"), "DAILY", body));

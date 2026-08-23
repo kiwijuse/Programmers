@@ -28,24 +28,6 @@ const todayKey = dayKey(Date.now());
 const keyToUTC = (k) => Date.parse(k + "T00:00:00Z");
 
 // ── 풀이 커밋 날짜 수집 ───────────────────────────────────────────
-function commitCounts() {
-  const counts = new Map();
-  let raw = "";
-  try {
-    raw = execFileSync("git", ["log", "--pretty=format:%ct", "--", SOLVED_DIR], {
-      cwd: ROOT, encoding: "utf8", maxBuffer: 1 << 26,
-    });
-  } catch {
-    return counts; // 히스토리가 없으면 빈 잔디
-  }
-  for (const line of raw.split("\n")) {
-    const ts = Number(line.trim());
-    if (!Number.isFinite(ts) || ts === 0) continue;
-    const k = dayKey(ts * 1000);
-    counts.set(k, (counts.get(k) || 0) + 1);
-  }
-  return counts;
-}
 
 // ── 격자 만들기 (마지막 열이 오늘이 든 주) ────────────────────────
 function buildGrid(counts) {
@@ -169,7 +151,7 @@ for (const theme of ["light", "dark"]) {
 
 if (existsSync(README)) {
   const line = st.total === 0
-    ? "`아직 커밋 없음` — 첫 풀이를 올리면 여기부터 채워진다."
+    ? "`아직 기록 없음` — 첫 풀이가 올라오면 여기부터 채워진다."
     : `\`현재 ${st.cur}일 연속\` · \`최장 ${st.max}일\` · \`활동 ${st.active}일\` · \`풀이 커밋 ${st.total}회\``;
   writeFileSync(README, replaceBlock(readFileSync(README, "utf8"), "STREAK", line));
 }
@@ -184,4 +166,44 @@ function replaceBlock(md, name, body) {
   const j = md.indexOf(close, i + open.length);
   if (i < 0 || j < 0) return md;
   return md.slice(0, i + open.length) + "\n" + body + "\n" + md.slice(j);
+}
+
+// 풀이 커밋만 세기.
+// 프로그래머스/<레벨>/<문제>/<파일> 처럼 4단계 이상인 경로가 들어간 커밋만 인정한다.
+// 그래야 폴더 안내용 README 같은 잡파일 커밋이 잔디를 채우지 않는다.
+function commitCounts() {
+  const counts = new Map();
+  let raw = "";
+  try {
+    raw = execFileSync(
+      "git",
+      ["-c", "core.quotepath=false", "log", "--pretty=format:@%ct", "--name-only", "--", SOLVED_DIR],
+      { cwd: ROOT, encoding: "utf8", maxBuffer: 1 << 26 }
+    );
+  } catch {
+    return counts; // 히스토리가 없는 새 저장소
+  }
+
+  let day = null;
+  let isSolution = false;
+  const flush = () => {
+    if (day && isSolution) counts.set(day, (counts.get(day) || 0) + 1);
+  };
+
+  for (const line of raw.split("\n")) {
+    const s = line.trim();
+    if (s.startsWith("@")) {
+      flush();
+      const ts = Number(s.slice(1));
+      day = Number.isFinite(ts) && ts > 0 ? dayKey(ts * 1000) : null;
+      isSolution = false;
+      continue;
+    }
+    if (!s) continue;
+    const parts = s.split("/");
+    if (parts[0] === SOLVED_DIR && parts.length >= 4) isSolution = true;
+  }
+  flush();
+
+  return counts;
 }
