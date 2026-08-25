@@ -19,12 +19,12 @@
 ## 연속 학습
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg?v=1787586043">
-  <img alt="연속 학습 기록" src="assets/grass-light.svg?v=1787586043">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg?v=1787668124">
+  <img alt="연속 학습 기록" src="assets/grass-light.svg?v=1787668124">
 </picture>
 
 <!-- STREAK:START -->
-`현재 2일 연속` · `최장 2일` · `활동 2일` · `풀이 커밋 2회`
+`현재 3일 연속` · `최장 3일` · `활동 3일` · `풀이 커밋 3회`
 <!-- STREAK:END -->
 
 <sub>README를 고치거나 설정을 만지는 커밋은 세지 않는다. <code>프로그래머스/</code> 아래에 풀이가 실제로 올라온 날만 칸이 채워진다.</sub>
@@ -32,9 +32,18 @@
 ## 풀이 목록
 
 <!-- INDEX:START -->
-**총 2문제** — `Lv.1 1` · `Lv.3 1`
+**총 3문제** — `Lv.0 1` · `Lv.1 1` · `Lv.3 1`
 
 <details open>
+<summary><b>Level 0</b> · 1문제</summary>
+
+| # | 문제 | 언어 | 풀이 |
+|---:|---|---|---|
+| 1 | [몫 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120805) | C++ | [코드](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/0/120805.%E2%80%85%EB%AA%AB%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0) |
+
+</details>
+
+<details>
 <summary><b>Level 1</b> · 1문제</summary>
 
 | # | 문제 | 언어 | 풀이 |
