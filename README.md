@@ -19,12 +19,12 @@
 ## 연속 학습
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg?v=1787672636">
-  <img alt="연속 학습 기록" src="assets/grass-light.svg?v=1787672636">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg?v=1787747563">
+  <img alt="연속 학습 기록" src="assets/grass-light.svg?v=1787747563">
 </picture>
 
 <!-- STREAK:START -->
-`현재 3일 연속` · `최장 3일` · `활동 3일` · `풀이 커밋 3회`
+`현재 4일 연속` · `최장 4일` · `활동 4일` · `풀이 커밋 4회`
 <!-- STREAK:END -->
 
 <sub>README를 고치거나 설정을 만지는 커밋은 세지 않는다. <code>프로그래머스/</code> 아래에 풀이가 실제로 올라온 날만 칸이 채워진다.</sub>
@@ -32,7 +32,7 @@
 ## 풀이 목록
 
 <!-- INDEX:START -->
-**총 3문제** — `Lv.0 1` · `Lv.1 1` · `Lv.3 1`
+**총 4문제** — `Lv.0 1` · `Lv.1 1` · `Lv.2 1` · `Lv.3 1`
 
 <details open>
 <summary><b>Level 0</b> · 1문제</summary>
@@ -49,6 +49,15 @@
 | # | 문제 | 언어 | 풀이 |
 |---:|---|---|---|
 | 1 | [크기가 작은 부분문자열](https://school.programmers.co.kr/learn/courses/30/lessons/147355) | C++ | [코드](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/147355.%E2%80%85%ED%81%AC%EA%B8%B0%EA%B0%80%E2%80%85%EC%9E%91%EC%9D%80%E2%80%85%EB%B6%80%EB%B6%84%EB%AC%B8%EC%9E%90%EC%97%B4) |
+
+</details>
+
+<details>
+<summary><b>Level 2</b> · 1문제</summary>
+
+| # | 문제 | 언어 | 풀이 |
+|---:|---|---|---|
+| 1 | [오픈채팅방](https://school.programmers.co.kr/learn/courses/30/lessons/42888) | C++ | [코드](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/2/42888.%E2%80%85%EC%98%A4%ED%94%88%EC%B1%84%ED%8C%85%EB%B0%A9) |
 
 </details>
 
