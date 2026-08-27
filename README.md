@@ -19,12 +19,12 @@
 ## 연속 학습
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg?v=1787821049">
-  <img alt="연속 학습 기록" src="assets/grass-light.svg?v=1787821049">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg?v=1787850329">
+  <img alt="연속 학습 기록" src="assets/grass-light.svg?v=1787850329">
 </picture>
 
 <!-- STREAK:START -->
-`현재 5일 연속` · `최장 5일` · `활동 5일` · `풀이 커밋 5회`
+`현재 6일 연속` · `최장 6일` · `활동 6일` · `풀이 커밋 6회`
 <!-- STREAK:END -->
 
 <sub>README를 고치거나 설정을 만지는 커밋은 세지 않는다. <code>프로그래머스/</code> 아래에 풀이가 실제로 올라온 날만 칸이 채워진다.</sub>
@@ -32,7 +32,7 @@
 ## 풀이 목록
 
 <!-- INDEX:START -->
-**총 5문제** — `Lv.0 1` · `Lv.1 1` · `Lv.2 2` · `Lv.3 1`
+**총 6문제** — `Lv.0 1` · `Lv.1 2` · `Lv.2 2` · `Lv.3 1`
 
 <details open>
 <summary><b>Level 0</b> · 1문제</summary>
@@ -44,11 +44,12 @@
 </details>
 
 <details>
-<summary><b>Level 1</b> · 1문제</summary>
+<summary><b>Level 1</b> · 2문제</summary>
 
 | # | 문제 | 언어 | 풀이 |
 |---:|---|---|---|
-| 1 | [크기가 작은 부분문자열](https://school.programmers.co.kr/learn/courses/30/lessons/147355) | C++ | [코드](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/147355.%E2%80%85%ED%81%AC%EA%B8%B0%EA%B0%80%E2%80%85%EC%9E%91%EC%9D%80%E2%80%85%EB%B6%80%EB%B6%84%EB%AC%B8%EC%9E%90%EC%97%B4) |
+| 1 | [［PCCE 기출문제］ 9번 ／ 지폐 접기](https://school.programmers.co.kr/learn/courses/30/lessons/340199) | C++ | [코드](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/340199.%E2%80%85%EF%BC%BBPCCE%E2%80%85%EA%B8%B0%EC%B6%9C%EB%AC%B8%EC%A0%9C%EF%BC%BD%E2%80%859%EB%B2%88%E2%80%85%EF%BC%8F%E2%80%85%EC%A7%80%ED%8F%90%E2%80%85%EC%A0%91%EA%B8%B0) |
+| 2 | [크기가 작은 부분문자열](https://school.programmers.co.kr/learn/courses/30/lessons/147355) | C++ | [코드](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/1/147355.%E2%80%85%ED%81%AC%EA%B8%B0%EA%B0%80%E2%80%85%EC%9E%91%EC%9D%80%E2%80%85%EB%B6%80%EB%B6%84%EB%AC%B8%EC%9E%90%EC%97%B4) |
 
 </details>
 
