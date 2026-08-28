@@ -7,11 +7,11 @@
 ## 랜덤 추천 문제
 
 <!-- DAILY:START -->
-> **2026-08-27** · 아직 안 푼 292문제 중에서 뽑았다.
+> **2026-08-28** · 아직 안 푼 290문제 중에서 뽑았다.
 
-1. **[[PCCE 기출문제] 9번 / 지폐 접기](https://school.programmers.co.kr/learn/courses/30/lessons/340199)** · Lv.1 · 정답률 66%
-2. **[전화번호 목록](https://school.programmers.co.kr/learn/courses/30/lessons/42577)** · Lv.2 · 정답률 67%
-3. **[삼총사](https://school.programmers.co.kr/learn/courses/30/lessons/131705)** · Lv.1 · 정답률 78%
+1. **[공원 산책](https://school.programmers.co.kr/learn/courses/30/lessons/172928)** · Lv.1 · 정답률 49%
+2. **[공 이동 시뮬레이션](https://school.programmers.co.kr/learn/courses/30/lessons/87391)** · Lv.3 · 정답률 24%
+3. **[숫자 게임](https://school.programmers.co.kr/learn/courses/30/lessons/12987)** · Lv.3 · 정답률 61%
 
 <sub>매일 자정에 새로 뽑힌다.</sub>
 <!-- DAILY:END -->
