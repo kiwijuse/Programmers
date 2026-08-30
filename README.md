@@ -7,11 +7,11 @@
 ## 랜덤 추천 문제
 
 <!-- DAILY:START -->
-> **2026-08-30** · 아직 안 푼 289문제 중에서 뽑았다.
+> **2026-08-31** · 아직 안 푼 287문제 중에서 뽑았다.
 
-1. **[보행자 천국](https://school.programmers.co.kr/learn/courses/30/lessons/1832)** · Lv.3 · 정답률 37%
-2. **[양과 늑대](https://school.programmers.co.kr/learn/courses/30/lessons/92343)** · Lv.3 · 정답률 42%
-3. **[피보나치 수](https://school.programmers.co.kr/learn/courses/30/lessons/12945)** · Lv.2 · 정답률 75%
+1. **[섬 연결하기](https://school.programmers.co.kr/learn/courses/30/lessons/42861)** · Lv.3 · 정답률 51%
+2. **[숫자 게임](https://school.programmers.co.kr/learn/courses/30/lessons/12987)** · Lv.3 · 정답률 61%
+3. **[거리두기 확인하기](https://school.programmers.co.kr/learn/courses/30/lessons/81302)** · Lv.2 · 정답률 49%
 
 <sub>매일 자정에 새로 뽑힌다.</sub>
 <!-- DAILY:END -->
