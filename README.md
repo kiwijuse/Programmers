@@ -19,12 +19,12 @@
 ## 연속 학습
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg?v=1788286444">
-  <img alt="연속 학습 기록" src="assets/grass-light.svg?v=1788286444">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg?v=1788360400">
+  <img alt="연속 학습 기록" src="assets/grass-light.svg?v=1788360400">
 </picture>
 
 <!-- STREAK:START -->
-`현재 10일 연속` · `최장 10일` · `활동 10일` · `풀이 커밋 10회`
+`현재 11일 연속` · `최장 11일` · `활동 11일` · `풀이 커밋 11회`
 <!-- STREAK:END -->
 
 <sub>README를 고치거나 설정을 만지는 커밋은 세지 않는다. <code>프로그래머스/</code> 아래에 풀이가 실제로 올라온 날만 칸이 채워진다.</sub>
@@ -32,15 +32,16 @@
 ## 풀이 목록
 
 <!-- INDEX:START -->
-**총 10문제** — `Lv.0 2` · `Lv.1 2` · `Lv.2 4` · `Lv.3 2`
+**총 11문제** — `Lv.0 3` · `Lv.1 2` · `Lv.2 4` · `Lv.3 2`
 
 <details open>
-<summary><b>Level 0</b> · 2문제</summary>
+<summary><b>Level 0</b> · 3문제</summary>
 
 | # | 문제 | 언어 | 풀이 |
 |---:|---|---|---|
-| 1 | [몫 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120805) | C++ | [코드](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/0/120805.%E2%80%85%EB%AA%AB%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0) |
-| 2 | [두 수의 곱 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120804) | C++ | [코드](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/0/120804.%E2%80%85%EB%91%90%E2%80%85%EC%88%98%EC%9D%98%E2%80%85%EA%B3%B1%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0) |
+| 1 | [두 수의 나눗셈](https://school.programmers.co.kr/learn/courses/30/lessons/120806) | C++ | [코드](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/0/120806.%E2%80%85%EB%91%90%E2%80%85%EC%88%98%EC%9D%98%E2%80%85%EB%82%98%EB%88%97%EC%85%88) |
+| 2 | [몫 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120805) | C++ | [코드](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/0/120805.%E2%80%85%EB%AA%AB%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0) |
+| 3 | [두 수의 곱 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/120804) | C++ | [코드](%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4/0/120804.%E2%80%85%EB%91%90%E2%80%85%EC%88%98%EC%9D%98%E2%80%85%EA%B3%B1%E2%80%85%EA%B5%AC%ED%95%98%EA%B8%B0) |
 
 </details>
 
