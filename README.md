@@ -7,11 +7,11 @@
 ## 랜덤 추천 문제
 
 <!-- DAILY:START -->
-> **2026-09-02** · 아직 안 푼 287문제 중에서 뽑았다.
+> **2026-09-03** · 아직 안 푼 286문제 중에서 뽑았다.
 
-1. **[3 x n 타일링](https://school.programmers.co.kr/learn/courses/30/lessons/12902)** · Lv.2 · 정답률 30%
-2. **[빛의 경로 사이클](https://school.programmers.co.kr/learn/courses/30/lessons/86052)** · Lv.2 · 정답률 19%
-3. **[최고의 집합](https://school.programmers.co.kr/learn/courses/30/lessons/12938)** · Lv.3 · 정답률 58%
+1. **[금과 은 운반하기](https://school.programmers.co.kr/learn/courses/30/lessons/86053)** · Lv.3 · 정답률 19%
+2. **[유사 칸토어 비트열](https://school.programmers.co.kr/learn/courses/30/lessons/148652)** · Lv.2 · 정답률 25%
+3. **[정수 삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105)** · Lv.3 · 정답률 65%
 
 <sub>매일 자정에 새로 뽑힌다.</sub>
 <!-- DAILY:END -->
