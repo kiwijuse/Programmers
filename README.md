@@ -7,11 +7,11 @@
 ## 랜덤 추천 문제
 
 <!-- DAILY:START -->
-> **2026-09-07** · 아직 안 푼 283문제 중에서 뽑았다.
+> **2026-09-08** · 아직 안 푼 282문제 중에서 뽑았다.
 
-1. **[달리기 경주](https://school.programmers.co.kr/learn/courses/30/lessons/178871)** · Lv.1 · 정답률 51%
-2. **[가장 큰 정사각형 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/12905)** · Lv.2 · 정답률 48%
-3. **[햄버거 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/133502)** · Lv.1 · 정답률 59%
+1. **[[PCCP 기출문제] 3번 / 아날로그 시계](https://school.programmers.co.kr/learn/courses/30/lessons/250135)** · Lv.2 · 정답률 18%
+2. **[가장 긴 팰린드롬](https://school.programmers.co.kr/learn/courses/30/lessons/12904)** · Lv.3 · 정답률 47%
+3. **[당구 연습](https://school.programmers.co.kr/learn/courses/30/lessons/169198)** · Lv.2 · 정답률 24%
 
 <sub>매일 자정에 새로 뽑힌다.</sub>
 <!-- DAILY:END -->
