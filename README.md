@@ -7,11 +7,11 @@
 ## 랜덤 추천 문제
 
 <!-- DAILY:START -->
-> **2026-09-10** · 아직 안 푼 280문제 중에서 뽑았다.
+> **2026-09-11** · 아직 안 푼 280문제 중에서 뽑았다.
 
-1. **[평균 구하기](https://school.programmers.co.kr/learn/courses/30/lessons/12944)** · Lv.1 · 정답률 88%
-2. **[공원 산책](https://school.programmers.co.kr/learn/courses/30/lessons/172928)** · Lv.1 · 정답률 49%
-3. **[조이스틱](https://school.programmers.co.kr/learn/courses/30/lessons/42860)** · Lv.2 · 정답률 40%
+1. **[불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)** · Lv.3 · 정답률 53%
+2. **[네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162)** · Lv.3 · 정답률 65%
+3. **[기차 선로](https://school.programmers.co.kr/learn/courses/30/lessons/468381)** · Lv.3 · 정답률 4%
 
 <sub>매일 자정에 새로 뽑힌다.</sub>
 <!-- DAILY:END -->
@@ -19,12 +19,12 @@
 ## 연속 학습
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg?v=1788978122">
-  <img alt="연속 학습 기록" src="assets/grass-light.svg?v=1788978122">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg?v=1789063931">
+  <img alt="연속 학습 기록" src="assets/grass-light.svg?v=1789063931">
 </picture>
 
 <!-- STREAK:START -->
-`현재 2일 연속` · `최장 15일` · `활동 17일` · `풀이 커밋 18회`
+`현재 0일 연속` · `최장 15일` · `활동 17일` · `풀이 커밋 18회`
 <!-- STREAK:END -->
 
 <sub>README를 고치거나 설정을 만지는 커밋은 세지 않는다. <code>프로그래머스/</code> 아래에 풀이가 실제로 올라온 날만 칸이 채워진다.</sub>
