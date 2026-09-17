@@ -7,11 +7,11 @@
 ## 랜덤 추천 문제
 
 <!-- DAILY:START -->
-> **2026-09-17** · 아직 안 푼 280문제 중에서 뽑았다.
+> **2026-09-18** · 아직 안 푼 280문제 중에서 뽑았다.
 
-1. **[메뉴 리뉴얼](https://school.programmers.co.kr/learn/courses/30/lessons/72411)** · Lv.2 · 정답률 52%
-2. **[제곱 개수 배열](https://school.programmers.co.kr/learn/courses/30/lessons/468380)** · Lv.3 · 정답률 11%
-3. **[이상한 문자 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/12930)** · Lv.1 · 정답률 77%
+1. **[호텔 대실](https://school.programmers.co.kr/learn/courses/30/lessons/155651)** · Lv.2 · 정답률 56%
+2. **[내적](https://school.programmers.co.kr/learn/courses/30/lessons/70128)** · Lv.1 · 정답률 86%
+3. **[숫자 변환하기](https://school.programmers.co.kr/learn/courses/30/lessons/154538)** · Lv.2 · 정답률 63%
 
 <sub>매일 자정에 새로 뽑힌다.</sub>
 <!-- DAILY:END -->
@@ -19,8 +19,8 @@
 ## 연속 학습
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg?v=1789584248">
-  <img alt="연속 학습 기록" src="assets/grass-light.svg?v=1789584248">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg?v=1789671084">
+  <img alt="연속 학습 기록" src="assets/grass-light.svg?v=1789671084">
 </picture>
 
 <!-- STREAK:START -->
