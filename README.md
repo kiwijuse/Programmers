@@ -7,11 +7,11 @@
 ## 랜덤 추천 문제
 
 <!-- DAILY:START -->
-> **2026-10-26** · 아직 안 푼 280문제 중에서 뽑았다.
+> **2026-10-27** · 아직 안 푼 280문제 중에서 뽑았다.
 
-1. **[[PCCE 기출문제] 9번 / 이웃한 칸](https://school.programmers.co.kr/learn/courses/30/lessons/250125)** · Lv.1 · 정답률 62%
-2. **[정수 삼각형](https://school.programmers.co.kr/learn/courses/30/lessons/43105)** · Lv.3 · 정답률 65%
-3. **[택배 상자 꺼내기](https://school.programmers.co.kr/learn/courses/30/lessons/389478)** · Lv.1 · 정답률 40%
+1. **[서울에서 김서방 찾기](https://school.programmers.co.kr/learn/courses/30/lessons/12919)** · Lv.1 · 정답률 86%
+2. **[가장 큰 수](https://school.programmers.co.kr/learn/courses/30/lessons/42746)** · Lv.2 · 정답률 59%
+3. **[가장 많이 받은 선물](https://school.programmers.co.kr/learn/courses/30/lessons/258712)** · Lv.1 · 정답률 31%
 
 <sub>매일 자정에 새로 뽑힌다.</sub>
 <!-- DAILY:END -->
@@ -19,8 +19,8 @@
 ## 연속 학습
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg?v=1792952029">
-  <img alt="연속 학습 기록" src="assets/grass-light.svg?v=1792952029">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg?v=1793046031">
+  <img alt="연속 학습 기록" src="assets/grass-light.svg?v=1793046031">
 </picture>
 
 <!-- STREAK:START -->
