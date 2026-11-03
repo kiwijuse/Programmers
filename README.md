@@ -7,11 +7,11 @@
 ## 랜덤 추천 문제
 
 <!-- DAILY:START -->
-> **2026-11-03** · 아직 안 푼 280문제 중에서 뽑았다.
+> **2026-11-04** · 아직 안 푼 280문제 중에서 뽑았다.
 
-1. **[[PCCP 기출문제] 2번 / 퍼즐 게임 챌린지](https://school.programmers.co.kr/learn/courses/30/lessons/340212)** · Lv.2 · 정답률 48%
-2. **[표 병합](https://school.programmers.co.kr/learn/courses/30/lessons/150366)** · Lv.3 · 정답률 32%
-3. **[발전소 회로 복구](https://school.programmers.co.kr/learn/courses/30/lessons/468375)** · Lv.3 · 정답률 17%
+1. **[숫자 야구](https://school.programmers.co.kr/learn/courses/30/lessons/451808)** · Lv.3 · 정답률 6%
+2. **[둘만의 암호](https://school.programmers.co.kr/learn/courses/30/lessons/155652)** · Lv.1 · 정답률 62%
+3. **[지게차와 크레인](https://school.programmers.co.kr/learn/courses/30/lessons/388353)** · Lv.2 · 정답률 47%
 
 <sub>매일 자정에 새로 뽑힌다.</sub>
 <!-- DAILY:END -->
@@ -19,8 +19,8 @@
 ## 연속 학습
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg?v=1793660435">
-  <img alt="연속 학습 기록" src="assets/grass-light.svg?v=1793660435">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg?v=1793738899">
+  <img alt="연속 학습 기록" src="assets/grass-light.svg?v=1793738899">
 </picture>
 
 <!-- STREAK:START -->
