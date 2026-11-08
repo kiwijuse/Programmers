@@ -7,11 +7,11 @@
 ## 랜덤 추천 문제
 
 <!-- DAILY:START -->
-> **2026-11-08** · 아직 안 푼 280문제 중에서 뽑았다.
+> **2026-11-09** · 아직 안 푼 280문제 중에서 뽑았다.
 
-1. **[N개의 최소공배수](https://school.programmers.co.kr/learn/courses/30/lessons/12953)** · Lv.2 · 정답률 72%
-2. **[[PCCE 기출문제] 10번 / 데이터 분석](https://school.programmers.co.kr/learn/courses/30/lessons/250121)** · Lv.1 · 정답률 57%
-3. **[명예의 전당 (1)](https://school.programmers.co.kr/learn/courses/30/lessons/138477)** · Lv.1 · 정답률 74%
+1. **[연속 펄스 부분 수열의 합](https://school.programmers.co.kr/learn/courses/30/lessons/161988)** · Lv.3 · 정답률 51%
+2. **[추억 점수](https://school.programmers.co.kr/learn/courses/30/lessons/176963)** · Lv.1 · 정답률 72%
+3. **[양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)** · Lv.2 · 정답률 40%
 
 <sub>매일 자정에 새로 뽑힌다.</sub>
 <!-- DAILY:END -->
@@ -19,8 +19,8 @@
 ## 연속 학습
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg?v=1794078995">
-  <img alt="연속 학습 기록" src="assets/grass-light.svg?v=1794078995">
+  <source media="(prefers-color-scheme: dark)" srcset="assets/grass-dark.svg?v=1794165807">
+  <img alt="연속 학습 기록" src="assets/grass-light.svg?v=1794165807">
 </picture>
 
 <!-- STREAK:START -->
