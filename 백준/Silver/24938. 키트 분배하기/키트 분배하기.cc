@@ -7,7 +7,7 @@ int main() {
     cin.tie(NULL);
     int s;
     cin >> s;
-    int sum = 0;
+    long long sum = 0;
     for (int i = 0; i < s; i++) {
         cin >> a[i];
         sum += a[i];
