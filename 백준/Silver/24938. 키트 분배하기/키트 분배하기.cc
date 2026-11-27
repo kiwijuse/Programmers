@@ -12,19 +12,11 @@ int main() {
         cin >> a[i];
         sum += a[i];
     }
-    int b = sum / s;
-    long long answer = 0;
+    long long b = sum / s;
+    long long answer = 0, carry = 0;
     for (int i = 0; i < s; i++) {
-        if (a[i] > b) { //현재 방이 가지고 있는 개수가 맞춰야하는 값보다 많다면
-            a[i + 1] += a[i] - b; //다음 방으로 넘김
-            answer += a[i] - b;
-            a[i] = b;
-        }
-        else if(a[i] <b) {
-            a[i + 1] -= b - a[i]; //다음 방에서 가지고옴
-            answer += b - a[i];
-            a[i] = b;
-        }
+        carry += a[i] - b;
+        answer += (carry < 0 ? -carry : carry);
     }
 
     cout << answer;
